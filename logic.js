@@ -1,5 +1,6 @@
 const liffId = "2006065768-lKEA3oOb";
-
+const urlParams = new URLSearchParams(window.location.search);
+const link = urlParams.get("link");
 const data = {
     "type": "bubble",
     "size": "mega",
@@ -205,7 +206,7 @@ const data = {
                 "action": {
                     "type": "uri",
                     "label": "เข้ากลุ่ม",
-                    "uri": "https://line.me/R/ti/g/7CXbxDDLMf"
+                    "uri": link
                 }
             },
             {
