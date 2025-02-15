@@ -216,7 +216,7 @@ const data = {
                 "action": {
                     "type": "uri",
                     "label": "แชร์ให้เพื่อน",
-                    "uri": "https://liff.line.me/2006065768-lKEA3oOb"
+                    "uri": "https://liff.line.me/2006065768-2a3pq0oM"
                 },
                 "color": "#650000"
             },
