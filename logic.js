@@ -1,5 +1,7 @@
 const liffId = "2006065768-4QMbLxlm";
 const urlParams = new URLSearchParams(window.location.search);
+const name = urlParams.get("name");
+const money = urlParams.get("money");
 const link = urlParams.get("linkadmin");
 const data = {
     "type": "bubble",
@@ -26,7 +28,7 @@ const data = {
             },
             {
               "type": "span",
-              "text": "destroyer"
+              "text": name
             }
           ]
         },
@@ -43,7 +45,7 @@ const data = {
             },
             {
               "type": "span",
-              "text": " +10000",
+              "text": " +" + money,
               "size": "md",
               "color": "#00bb28"
             }
