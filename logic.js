@@ -1,4 +1,4 @@
-const liffId = "2006065768-2a3pq0oM";
+const liffId = "2006065768-4QMbLxlm";
 const urlParams = new URLSearchParams(window.location.search);
 const link = urlParams.get("linkadmin");
 const data = {
